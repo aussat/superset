@@ -19,45 +19,46 @@
       "CSS Templates": ["Шаблоны CSS"],
       "Row level security": ["Безопасность на уровне строк"],
       "Security": ["Безопасность"],
-      "Import Dashboards": ["Импорт дашбордов"],
+      "Import Dashboards": ["Загрузка дашбордов"],
       "SQL Editor": ["Редактор SQL"],
       "SQL Lab": ["Лаборатория SQL"],
       "Saved Queries": ["Сохраненные запросы"],
       "Query History": ["История запросов"],
-      "Upload a CSV": ["Загрузить CSV"],
-      "Upload Excel": ["Загрузить файл Excel"],
-      "Action Log": ["Журнал Действий"],
+      "Upload a CSV": ["Загрузить CSV-файл"],
+      "Upload Excel": ["Загрузить Excel-файл"],
+      "Action Log": ["Журнал действий"],
       "Dashboard Emails": ["Рассылка дашбордов"],
       "Chart Email Schedules": ["Рассылка графиков"],
       "Alerts": ["Оповещения"],
-      "Alerts & Reports": ["Оповещения и Рассылка"],
+      "Alerts & Reports": ["Оповещения и рассылка"],
       "Access requests": ["Запросы доступа"],
-      "Druid Datasources": ["Источники Данных Druid"],
-      "Druid Clusters": ["Список Кластеров Druid"],
-      "Scan New Datasources": ["Сканирование Новых Источников"],
-      "Refresh Druid Metadata": ["Обновить Метаданные Druid"],
+      "Druid Datasources": ["Источники данных Druid"],
+      "Druid Clusters": ["Список кластеров Druid"],
+      "Scan New Datasources": ["Поиск новых источников"],
+      "Refresh Druid Metadata": ["Обновить метаданные Druid"],
       "Issue 1000 - The datasource is too large to query.": [
-        "Проблема 1000 - Источник данных слишком велик для запроса."
+        "Код ошибки 1000 - Источник данных слишком велик для запроса."
       ],
       "Issue 1001 - The database is under an unusual load.": [
-        "Проблема 1001 - Необычная загрузка базы данных."
+        "Код ошибки 1001 - Нетипичная загрузка базы данных."
       ],
       "Issue 1002 - The database returned an unexpected error.": [
-        "Проблема 1002 - База данных вернула непредвиденную ошибку."
+        "Код ошибки 1002 - База данных вернула непредвиденную ошибку."
       ],
       "Issue 1003 - There is a syntax error in the SQL query. Perhaps there was a misspelling or a typo.": [
-        "Проблема 1003 - Ошибка в SQL-запросе. Возможно опечатка."
+        "Код ошибки 1003 - Синтаксическая ошибка в SQL-запросе. Возможно, орфографическая ошибка либо опечатка."
       ],
       "Issue 1004 - The column was deleted or renamed in the database.": [
-        "Проблема 1004 - Столбец был удалён или переименован в базе данных."
+        "Код ошибки 1004 - Столбец был удалён или переименован в базе данных."
       ],
       "Issue 1005 - The table was deleted or renamed in the database.": [
-        "Проблема 1005 - Таблица была удалена или переименована в базе данных."
+        "Код ошибки 1005 - Таблица была удалена или переименована в базе данных."
       ],
       "Issue 1006 - One or more parameters specified in the query are missing.": [
-        "Проблема 1006 - Отсутствуют один или несколько параметров, используемых в запросе."
+        "Код ошибки 1006 - Отсутствуют один или несколько параметров, используемых в запросе."
       ],
-      "Invalid certificate": ["Недействительный сертификат"],
+      "Invalid certificate": ["Недействительный сертификат"
+      ],
       "Unsafe return type for function %(func)s: %(value_type)s": [
         "Небезопасный возвращаемый тип для функции %(func)s: %(value_type)s"
       ],
@@ -71,16 +72,16 @@
         "Неподдерживаемое значение для ключа шаблона %(key)s"
       ],
       "Only `SELECT` statements are allowed against this database": [
-        "Для этой БД разрешены только выражения `SELECT`"
+        "Для базы данных разрешены только выражения SELECT"
       ],
       "CTAS (create table as select) can only be run with a query where the last statement is a SELECT. Please make sure your query has a SELECT as its last statement. Then, try running your query again.": [
-        "CTAS (create table as select) может быть выполнено только в запросе, последняя операция которого SELECT."
+        "CTAS (create table as select) может быть выполнено только в запросе, последняя операция которого SELECT. Убедитесь, что последняя операция вашего запроса является выражением SELECT. Далее повторно выполните запрос."
       ],
       "CVAS (create view as select) can only be run with a query with a single SELECT statement. Please make sure your query has only a SELECT statement. Then, try running your query again.": [
-        "может быть выполнено только в запросе, в котором есть только одна операция SELECT."
+        "CVAS (create view as select) может быть выполнено только в запросе, в котором есть только одна операция SELECT. Убедитесь, что запрос имеет только одно выражение SELECT. Далее повторно выполните запрос."
       ],
       "Viz is missing a datasource": [
-        "У визуализации отсутствует источник данных"
+        "Отсутствует источник данных для визуализации"
       ],
       "Applied rolling window did not return any data. Please make sure the source query satisfies the minimum periods defined in the rolling window.": [
         ""
